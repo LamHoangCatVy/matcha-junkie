@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #FFF9B1; /* Pastel Yellow */
+    color: #333;
+}
+
+/* Header */
+header {
+    padding: 20px 50px;
+    background-color: #F5C1CC; /* Pastel Pink */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #C1E1C1; /* Pastel Green */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #C1E1C1; /* Pastel Green */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #FFF9B1; /* Pastel Yellow */
+}
+
+.hero h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #C1E1C1; /* Pastel Green */
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #F5C1CC; /* Pastel Pink */
+}
+
+.hero-text p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 400px;
+    color: #666;
+}
+
+.hero-text button {
+    padding: 10px 30px;
+    background-color: #C1E1C1; /* Pastel Green */
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.hero-text button:hover {
+    background-color: #F5C1CC; /* Pastel Pink */
+}
+
+/* Categories Section */
+.categories {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #F5C1CC; /* Pastel Pink */
+}
+
+.categories h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #C1E1C1; /* Pastel Green */
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.category-item {
+    text-align: center;
+}
+
+.category-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #C1E1C1; /* Pastel Green */
+}
+
+.category-item h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.category-item p {
+    font-size: 10px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.view-all {
+    padding: 10px 30px;
+    background-color: #C1E1C1; /* Pastel Green */
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.view-all:hover {
+    background-color: #FFF9B1; /* Pastel Yellow */
+}
+
+/* Featured Section */
+.featured {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #FFF9B1; /* Pastel Yellow */
+}
+
+.featured h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #C1E1C1; /* Pastel Green */
+}
+
+.featured-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.featured-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #F5C1CC; /* Pastel Pink */
+}
+
+.featured-item p {
+    font-size: 10px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #F5C1CC; /* Pastel Pink */
+}
+
+.contact h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #C1E1C1; /* Pastel Green */
+}
+
+.contact form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact input {
+    padding: 10px 20px;
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 0;
+    font-size: 12px;
+    background-color: #FFF9B1; /* Pastel Yellow */
+}
+
+.contact button {
+    padding: 10px 30px;
+    background-color: #C1E1C1; /* Pastel Green */
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.contact button:hover {
+    background-color: #FFF9B1; /* Pastel Yellow */
+}
+
+/* Footer */
+footer {
+    padding: 40px 50px;
+    background-color: #FFF9B1; /* Pastel Yellow */
+    text-align: center;
+    border-top: 2px solid #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    font-size: 20px;
+    color: #C1E1C1; /* Pastel Green */
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 10px;
+}
+
+.footer-links a:hover {
+    color: #F5C1CC; /* Pastel Pink */
+}
+
+.footer-social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 10px;
+}
+
+.footer-social a:hover {
+    color: #F5C1CC; /* Pastel Pink */
+}
+
+footer p {
+    font-size: 10px;
+    color: #666;
+}
